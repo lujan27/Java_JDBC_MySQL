@@ -11,6 +11,7 @@ public class ExampleJDBC {
         String username = "root";
         String password = "localhost";
 
+
         try {
             Connection connection = DriverManager.getConnection(url, username, password);
             Statement statement = connection.createStatement();
